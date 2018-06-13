@@ -1,0 +1,64 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v1.4": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v1.4": [
+      "NETStandard.Library >= 1.6.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mohamed\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\mohamed\\source\\repos\\softLockTask\\AES\\AES.csproj",
+      "projectName": "AES",
+      "projectPath": "C:\\Users\\mohamed\\source\\repos\\softLockTask\\AES\\AES.csproj",
+      "packagesPath": "C:\\Users\\mohamed\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mohamed\\source\\repos\\softLockTask\\AES\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\mohamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard1.4"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\mohamed\\AppData\\Local\\Esri\\NuGet": {}
+      },
+      "frameworks": {
+        "netstandard1.4": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "netstandard1.4": {
+        "dependencies": {
+          "NETStandard.Library": {
+            "target": "Package",
+            "version": "[1.6.1, )",
+            "autoReferenced": true
+          }
+        }
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package NETStandard.Library with version (>= 1.6.1)\r\n  - Found 1 version(s) in Microsoft Visual Studio Offline Packages [ Nearest version: 1.6.0 ]\r\n  - Found 0 version(s) in Esri",
+      "libraryId": "NETStandard.Library",
+      "targetGraphs": [
+        ".NETStandard,Version=v1.4"
+      ]
+    }
+  ]
+}
